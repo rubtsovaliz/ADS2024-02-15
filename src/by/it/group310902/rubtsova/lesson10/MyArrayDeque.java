@@ -20,7 +20,6 @@ public class MyArrayDeque<E> implements Deque<E> {
         this.front = 0;
         this.rear = 0;
     }
-
     // Переопределение метода toString для удобного отображения очереди
     @Override
     public String toString() {

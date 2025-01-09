@@ -10,7 +10,6 @@ public class MyLinkedList<E> implements Deque<E> {
     private Node<E> head; // Указатель на первый узел списка
     private Node<E> tail; // Указатель на последний узел списка
     private int size;
-
     // Внутренний класс для представления узла списка
     private static class Node<E> {
         E data; // Данные узла

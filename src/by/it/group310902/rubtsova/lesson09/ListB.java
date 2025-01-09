@@ -9,7 +9,6 @@ import java.util.ListIterator;
 public class ListB<E> implements List<E> {
     private E[] array;
     private int size;
-
     public ListB() {
         this.array = (E[]) new Object[10];
         this.size = 0;

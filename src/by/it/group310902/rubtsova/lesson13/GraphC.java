@@ -4,7 +4,6 @@ import java.util.*;
 public class GraphC {
 
     private Map<String, ArrayList<String>> elements = new HashMap<>();
-
     public GraphC(Scanner scanner) {
         // Обрабатываем входные данные в формате "узел1->узел2, узел3, ..."
         for (var connections : scanner.nextLine().split(", ")) {

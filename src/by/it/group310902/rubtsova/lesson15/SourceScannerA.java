@@ -18,7 +18,6 @@ public class SourceScannerA  {
     public static void main(String[] args) throws IOException {
         // Путь к корневой папке
         Path rootDirectory = Paths.get("src"); // создаётся объект Path, который указывает на корневую папку
-
         // Список для хранения информации о файлах
         List<FileInfo> fileInfoList = new ArrayList<>();
 

@@ -4,7 +4,6 @@ import java.util.*;
 public class GraphB {
 
     private Map<String, ArrayList<String>> elements = new HashMap<>();
-
     public GraphB(Scanner input) {
         // Обрабатываем входные данные в формате "узел1 -> узел2, узел3, ..."
         for (var connections : input.nextLine().split(", ")) {

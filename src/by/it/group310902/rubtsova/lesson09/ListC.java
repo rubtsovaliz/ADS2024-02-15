@@ -10,7 +10,6 @@ public class ListC<E> implements List<E> {
     private E[] elements;
 
     private int size;
-
     public ListC() {
         elements = (E[]) new Object[10];
         size = 0;

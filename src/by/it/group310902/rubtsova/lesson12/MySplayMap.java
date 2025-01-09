@@ -19,7 +19,6 @@ public class MySplayMap implements NavigableMap<Integer, String> {
             this.value = value; // Инициализация значения
         }
     }
-
     // Метод для получения строкового представления карты
     @Override
     public String toString() {

@@ -56,7 +56,6 @@ public class SourceScannerB  {
             System.err.println("Ошибка чтения файла: " + file.toString() + " - " + e.getMessage());
             return Optional.empty();
         }
-
         // Преобразуем содержимое
         String processedContent = processContent(content.toString());
 

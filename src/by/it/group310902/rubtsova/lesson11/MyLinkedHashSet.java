@@ -18,7 +18,6 @@ public class MyLinkedHashSet<E> implements Set<E> {
             data = e;
         }
     }
-
     static final int START_SIZE = 20; // Начальный размер хеш-таблицы
     int size = 0;
     Node<E>[] items; // Массив узлов для хранения элементов

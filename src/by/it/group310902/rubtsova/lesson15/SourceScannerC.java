@@ -165,7 +165,6 @@ public class SourceScannerC {
             findCopies(javaClasses); // Находим копии файлов после обработки всех файлов.
         }
     }
-
     // Метод для обработки массива символов (пока не реализован).
     private static char[] move(char[] charArr) {
         return charArr; // Возвращаем массив символов без изменений.

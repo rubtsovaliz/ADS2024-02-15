@@ -13,7 +13,6 @@
                 remove(int)
                 remove(E element)
                 size()
-
                 addFirst(E element)
                 addLast(E element)
 

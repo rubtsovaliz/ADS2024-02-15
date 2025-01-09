@@ -4,7 +4,6 @@ import java.util.*;
 // Класс GraphA представляет граф с элементами в виде Map, где ключ - строка, а значение - список строк
 public class GraphA {
     private Map<String, ArrayList<String>> elements = new HashMap<>();
-
     public GraphA(Scanner input) {
         // Обрабатываем входные данные в формате "узел1 -> узел2, узел3, ..."
         for (var connections : input.nextLine().split(", ")) {

@@ -17,7 +17,6 @@ public class MyTreeSet<E extends Comparable<E>> implements Set<E> {
             this.data = data;
         }
     }
-
     Node root;
     int count;
 

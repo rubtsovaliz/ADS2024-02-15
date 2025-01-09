@@ -7,7 +7,6 @@ import java.util.ListIterator;
 
 // Класс ListA реализует интерфейс List и представляет собой динамический массив
 public class ListA<E> implements List<E> {
-
     private E[] array;
     private int size;
 

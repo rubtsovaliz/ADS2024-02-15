@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 // Главный класс для решения задачи с башнями Ханой с использованием структуры объединенных множеств (DSU)
 public class StatesHanoiTowerC {
-
     // Вложенный класс для реализации структуры данных DSU
     private static class DSU {
         int[] parent; // Массив для хранения родительских узлов

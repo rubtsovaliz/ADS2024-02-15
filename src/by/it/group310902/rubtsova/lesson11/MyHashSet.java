@@ -16,7 +16,6 @@ public class MyHashSet<E> implements Set<E> {
             this.data = data; // Инициализация данных
         }
     }
-
     static final int defaultSize = 32; // Начальный размер хеш-таблицы
     Node<E>[] items; // Массив узлов для хранения элементов
     int count; // Счетчик количества элементов в множестве

@@ -9,7 +9,6 @@ public class MyPriorityQueue<E extends Comparable<E>> implements Queue<E> {
     private static final int DEFAULT_INITIAL_CAPACITY = 10; // емкость кучи
     private int size; //размер очереди
     private E[] heap; // Массив для хранения элементов кучи
-
     // Конструктор по умолчанию
     public MyPriorityQueue() {
         heap = (E[]) new Comparable[DEFAULT_INITIAL_CAPACITY]; // массив
